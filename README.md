@@ -17,7 +17,7 @@ Test taskwarrior:
 ```bash 
 task add "example"
 task list
-task done <number>
+task <number> done
 ```
 
 Now that you have done that, get yourself a custom report for morning standup. 
