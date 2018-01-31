@@ -23,7 +23,7 @@ task <number> done
 Now that you have done that, get yourself a custom report for morning standup. 
 Lets backup the config file first. 
 `cp ~/.taskrc ~/.taskrc.bak`
-Then using your favorite editor paste these lines in: 
+Then using your favorite editor paste these lines in at the bottom of your ~/.taskrc file: 
 ```
 report.scrum.description=Scrum report for standup
 report.scrum.columns=id,uuid.short,project,modified.formatted,description.combined
