@@ -29,6 +29,7 @@ report.scrum.description=Scrum report for standup
 report.scrum.columns=id,uuid.short,project,modified.formatted,description.combined
 report.scrum.labels=ID,UUID,Project,Modded,Details
 ```
+*OSX users can copy the above and use `pbpaste >> ~/.taskrc`* 
 Cool you can test that out with:
 
 `task scrum modified:today`
