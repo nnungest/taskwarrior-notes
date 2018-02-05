@@ -5,15 +5,15 @@ Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Home
 Coreutils: `brew install coreutils`
 
 
-##Install taskwarrior 
+## Install taskwarrior 
 
 `brew install task`
 
-##Install timewarrior 
+## Install timewarrior 
 
 `brew install timewarrior` 
 
-##Test taskwarrior:
+## Test taskwarrior:
 ```bash 
 task add "example"
 task list
