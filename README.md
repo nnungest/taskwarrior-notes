@@ -5,22 +5,23 @@ Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Home
 Coreutils: `brew install coreutils`
 
 
-Install taskwarrior 
+##Install taskwarrior 
 
 `brew install task`
 
-Install timewarrior 
+##Install timewarrior 
 
 `brew install timewarrior` 
 
-Test taskwarrior:
+##Test taskwarrior:
 ```bash 
 task add "example"
 task list
 task <number> done
 ```
+##Using it for a daily scrum 
 
-Now that you have done that, get yourself a custom report for morning standup. 
+Now that you have done all the above, get yourself a custom report for morning standup. 
 Lets backup the config file first. 
 `cp ~/.taskrc ~/.taskrc.bak`
 Then using your favorite editor paste these lines in at the bottom of your ~/.taskrc file: 
@@ -37,7 +38,7 @@ Cool you can test that out with:
 
 Now we don't want to have to type all that out. so lets make this easier. 
 
-In your favorite editor, add these lines to your ~/.bash\_profile.If that file doesnt exist, you can use mine [here](https://github.com/nnungest/.files/blob/master/osx_bashp_boiler.txt "bash_profile"). 
+In your favorite editor, add these lines to your ~/.bash\_profile. If that file doesnt exist, you can use mine [here](https://github.com/nnungest/.files/blob/master/osx_bashp_boiler.txt "bash_profile"). 
 
 ```bash 
 #----------------
